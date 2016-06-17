@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: #DCDCDC;
+}
+
+
+.nav-admin {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: #223645;
+}
+.nav li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.table {
+    display: inline-block;
+    margin-left: 15%;
+    font: sans-serif;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+.table thead {
+    border-bottom: 2px solid black;
+}
+.table td {
+    padding: 5px 15px 5px 15px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.msg {
+    text-align: center;
+}
+
+/*::::::::::::::::: Page index.php:::::::::::::::::::::*/
+
+.log {
+    position: absolute;
+    left:45%;
+    top: 35%;
+}
+form {
+    display: -moz-grid;
+}
